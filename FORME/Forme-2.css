@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+   
+      overflow-x: hidden;
+}
+.backgroundimg{
+     background-image:url(https://formelife.com/cdn/shop/files/FORME_Website_Golf_page_hero.png?v=1731456847) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 50vw;
+}
+.nav{
+    background-color: aliceblue;
+    height: 4em;
+    width: 100vw;
+    border: 2px solid black;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.Equipment p{
+    color:white;
+}
+
+.nav:hover{
+    color: black;
+    opacity: 0.8;
+}
+.nav-2{
+    display: flex;
+    /* margin: 1em; */
+}
+.Golf-1{
+    margin: 2em;
+}
+.logo{
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 0.5em;
+  font-size: xx-large;
+}
+
+.Contact-Sales button{
+    background-color:#4682F6 ;
+    height: 2vw;
+    width: 10vw;
+    margin-top: 1.5em;
+    border-radius: 30px;
+    border: none;
+    color: aliceblue;
+
+}
+.body{
+    
+    margin-left: 4vw;
+}
+.p-1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 5em;
+    font-size:4em;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+   margin-top: 1vw;
+
+}
+.p-2{
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    
+    
+}
+.p-3{
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    width: 18em;
+    margin-top: 1em;
+}
+
+
+ .para-1 .p-4{
+  font-size:1.5em ;
+  font-family:'Inter', sans-serif; ;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.para-1{
+  /* border: 1px solid red; */
+  width: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+}
+.forme{
+    margin-top: 2em;
+    margin-left: 5em;
+   
+    
+}
+.forme a {
+     margin-bottom: 2em;
+}
+.para{
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+/* BODY-1 */
+
+.body-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8vw;
+}
+.body-1 img {
+    width: 30vw;
+    height: 20em;
+
+}
+.body-1 p {
+    width: 17em;
+    font-size: xx-large;
+}
+.p-5, .p-7{
+    font-size:xx-small;
+}
+.p-5{
+    margin-top: 1em;
+}
+
+
+/* Ultimate Golf */
+
+.UltimateGolf{
+    background-color:#262626;
+    height: auto;
+    width: 100vw;
+    display: flex;
+}
+.Heading-2{
+    color: white;
+    font-size: 3em;
+    width: 80%;
+     margin-top: 5%;
+
+}
+.p-9{
+    color: white;
+    width: 70%;
+    margin-top: 2%;
+    font-size:x-large;
+    gap: 2%;
+}
+.btn-2{
+    background-color:#E3DCD0 ;
+    height: 3em;
+    width: 25%;
+    margin-top: 5%;
+    border: 1px solid;
+    border-radius: 10px;
+
+
+}
+.btn-2:hover{
+    background-color: black;
+    color: white;
+}
+
+.right{
+   
+    margin-left: 10%;
+}
+
+/* left */
+
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 25%;
+  margin: 5%;
+  
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.card p {
+  font-size: x-large;
+  line-height: 1.5;
+}
+
+/* BODY-3 */
+
+
+.Heading-3{
+    font-size: 5em;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+
+.Academies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  gap: 40px;
+  flex-wrap: wrap; 
+}
+
+/* Left  */
+.right-2 {
+  flex: 1;
+  min-width: 300px;
+}
+
+.right-2 h1 {
+  font-size: 2.2rem;
+  color: #1b1b1b;
+  margin-bottom: 20px;
+}
+
+.right-2 p {
+  color: #6e6e6e;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+/* Right  */
+.left-2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+}
+
+.left-2 img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+
+
+/* Footer */
+
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 60px 80px 30px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15em;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #222;
+  padding-bottom: 40px;
+}
+
+.footer-column {
+  min-width: 150px;
+  margin: 10px 30px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.footer-column p {
+  color: #ccc;
+  font-size: 14px;
+  margin: 6px 0;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-column p:hover {
+  color: white;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.footer-column a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #999;
+}
+
+
+
+
+
+

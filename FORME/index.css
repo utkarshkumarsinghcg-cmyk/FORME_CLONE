@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* ================= HERO SECTION ================= */
+
+.backgroundimg{
+    /* background-image:url(https://formelife.com/cdn/shop/files/bg-img.jpg?v=1672998157); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vw;
+    position: relative;
+    overflow: hidden;
+}
+
+/* ================= VIDEO BACKGROUND ================= */
+
+.vedio{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.vedio video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ================= NAVBAR ================= */
+
+.nav{
+    /* background-color: aliceblue; */
+    height: 5em;
+    width: 100vw;
+    /* border: 2px solid black; */
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 4vw;
+}
+
+.nav:hover{
+    opacity: 0.9;
+}
+
+.nav-2{
+    display: flex;
+    align-items: center;
+}
+
+.Golf-1{
+    margin: 0 1.5em;
+}
+
+.logo{
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    line-height: 1;
+}
+
+.Contact-Sales{
+    display: flex;
+    align-items: center;
+}
+
+.Contact-Sales button{
+    background-color:#4682F6;
+    height: 2.4vw;
+    width: 8.5vw;
+    border-radius: 30px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+/* ================= HERO TEXT ================= */
+
+.body{
+    margin-left: 4vw;
+}
+
+.p-1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 5em;
+    font-size: 6em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.15em;
+}
+
+.p-2{
+    color: white;
+    font-size: 4em;
+    font-weight: 900;
+}
+
+.para{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.forme{
+    margin-top: 2em;
+    margin-left: 5em;
+   
+    
+}
+
+.card{
+    /* border: 2PX SOLID red; */
+    align-items: center;
+    justify-content: center;
+
+}
+.card .Forme{
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    margin-right: 80px;
+   
+    /* border: 2PX SOLID; */
+}
+
+.forme1 p{
+    
+    margin-right: 20%;
+}
+
+.Forme img{
+    height: 100%;
+    width: 100%;
+}
+
+/* ================= MAIN BODY ================= */
+
+.Heading-1{
+    display: flex;
+    margin-left: 2em;
+    margin-top: 2em;
+    font-size: 3em;
+}
+
+.card{
+    display: flex;
+    gap: 1%;
+}
+
+.Forme{
+    font-size: xx-large;
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+.p-4{
+    margin-bottom: 0.5em;
+}
+
+.p-5{
+    font-weight: 500;
+    font-size: x-large;
+    width: 25em;
+    margin-top: 1em;
+}
+
+/* ================= FORME SECTIONS ================= */
+
+.FORME-STUDIO,
+.FORME-STUDIO-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.FORME-STUDIO-1{
+    flex-direction: row-reverse;
+}
+
+.img-1 img{
+    width: 40vw;
+    height: 49vw;
+    margin-top: 12em;
+    border-radius: 20px;
+}
+
+.side-1{
+    margin-top: 12em;
+}
+
+.p-7{
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-left: 2.7em;
+    margin-bottom: 0.6em;
+}
+
+.p-8{
+    font-size: 3.1em;
+    margin-left: 1.8em;
+    width: 13em;
+}
+
+/* ================= FEATURE LIST ================= */
+
+.side-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right,
+.left{
+    margin-top: 2em;
+    width: 19em;
+    margin-left: 1em;
+}
+
+.right p{
+    font-size: larger;
+}
+
+.line-1{
+    display: flex;
+    gap: 10px;
+    margin: 1.6em;
+}
+
+.line-1 img{
+    height: 1vw;
+    margin-top: 0.2em;
+}
+
+.line-1 p{
+    font-size: x-large;
+}
+
+/* ================= BUTTON ================= */
+
+.btn-1{
+    height: 4vw;
+    width: 10vw;
+    margin-left: 2.4em;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: black;
+    color: white;
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+    background-color: #000;
+    color: white;
+    padding: 60px 80px 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15em;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+    padding-bottom: 40px;
+}
+
+.footer-column{
+    min-width: 150px;
+    margin: 10px 30px;
+}
+
+.footer-column h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.footer-column p{
+    color: #ccc;
+    font-size: 14px;
+    margin: 6px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer-column p:hover{
+    color: white;
+}
+
+.footer-column a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer-column a:hover{
+    color: white;
+}
+
+.footer-bottom{
+    text-align: left;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #999;
+}
+
+
+
+/* ================= CONTACT US MODAL ================= */
+
+.contact-modal{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.contact-modal.active{
+    display: flex;
+}
+
+/* reuse your existing form-wrapper look */
+.contact-modal .form-wrapper{
+    background:#fff;
+    width:360px;
+    border-radius:6px;
+    padding:20px;
+    position: relative;
+}
+
+/* close button */
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+}
+
+/* form elements */
+.form-wrapper h2{
+    text-align: center;
+    margin-bottom: 5px;
+    color: #111;
+}
+
+.form-wrapper p{
+    text-align: center;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.form-wrapper label{
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.form-wrapper input,
+.form-wrapper textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.phone-group{
+    display: flex;
+    gap: 5px;
+}
+
+.phone-group input:first-child{
+    width: 30%;
+}
+
+.phone-group input:last-child{
+    width: 70%;
+}
+
+.checkbox-group{
+    margin-top: 5px;
+}
+
+.checkbox-group label{
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.form-wrapper textarea{
+    resize: none;
+    height: 70px;
+}
+
+.form-wrapper button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.form-wrapper button:hover{
+    background: #333;
+}
+
+
+/* ================= RESPONSIVE + SCROLLABLE CONTACT MODAL ================= */
+
+/* allow scrolling inside modal if content overflows */
+.contact-modal{
+    padding: 20px;              /* space on small screens */
+}
+
+/* make form scrollable */
+.contact-modal .form-wrapper{
+    max-height: 90vh;           /* keep modal inside screen */
+    overflow-y: auto;           /* enable vertical scroll */
+}
+
+/* smooth scrolling */
+.contact-modal .form-wrapper::-webkit-scrollbar{
+    width: 6px;
+}
+
+.contact-modal .form-wrapper::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 10px;
+}
+
+/* ================= MOBILE FIXES ================= */
+
+@media (max-width: 768px){
+    .contact-modal .form-wrapper{
+        width: 95%;
+        max-width: 420px;
+        padding: 18px;
+    }
+
+    .form-wrapper h2{
+        font-size: 20px;
+    }
+
+    .form-wrapper p{
+        font-size: 12px;
+    }
+
+    .form-wrapper label{
+        font-size: 11px;
+    }
+
+    .form-wrapper input,
+    .form-wrapper textarea{
+        font-size: 12px;
+    }
+
+    .phone-group{
+        flex-direction: column;
+    }
+
+    .phone-group input:first-child,
+    .phone-group input:last-child{
+        width: 100%;
+    }
+}
+
+/* ================= VERY SMALL DEVICES ================= */
+
+@media (max-width: 480px){
+    .contact-modal{
+        align-items: flex-start; /* prevents cutoff */
+    }
+
+    .contact-modal .form-wrapper{
+        margin-top: 20px;
+        max-height: 85vh;
+    }
+}
